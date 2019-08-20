@@ -49,5 +49,6 @@ public class CombinationSum {
         CombinationSum solution = new CombinationSum();
         List<List<Integer>> combinationSum = solution.combinationSum(candidates, target);
         System.out.println(combinationSum);
+        System.out.println();
     }
 }
