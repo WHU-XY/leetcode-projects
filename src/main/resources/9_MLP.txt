@@ -1,0 +1,911 @@
+o.n.l.f.Nd4jBackend - Loaded [CpuBackend] backend
+o.n.n.NativeOpsHolder - Number of threads used for NativeOps: 4
+o.n.n.Nd4jBlas - Number of threads used for BLAS: 4
+o.n.l.a.o.e.DefaultOpExecutioner - Backend used: [CPU]; OS: [Windows 10]
+o.n.l.a.o.e.DefaultOpExecutioner - Cores: [8]; Memory: [1.7GB];
+o.n.l.a.o.e.DefaultOpExecutioner - Blas vendor: [MKL]
+o.d.n.m.MultiLayerNetwork - Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+play.api.Play - Application started (Prod)
+p.c.s.NettyServer - Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+o.d.u.p.PlayUIServer - DL4J UI Server started at http://localhost:9000
+o.d.u.p.PlayUIServer - StatsStorage instance attached to UI: InMemoryStatsStorage(uid=67f35cf4)
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 1
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.957128531460738
+AUPRC (Area under Precision/Recall Curve): 0.9482468422057865
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.8928      0.8874      0.9345      0.8448      20922   8837   9842   619    1624   
+1                   0.8928      0.8977      0.8584      0.9408      20922   9842   8837   1624   619    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 2
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9779000159094048
+AUPRC (Area under Precision/Recall Curve): 0.9735885053078664
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9312      0.9319      0.9225      0.9416      20922   9850   9633   828    611    
+1                   0.9312      0.9305      0.9404      0.9208      20922   9633   9850   611    828    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 3
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9817867026544616
+AUPRC (Area under Precision/Recall Curve): 0.9788758057880015
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9285      0.9263      0.9568      0.8976      20922   9390   10037  424    1071   
+1                   0.9285      0.9307      0.9036      0.9595      20922   10037  9390   1071   424    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 4
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.983826041313592
+AUPRC (Area under Precision/Recall Curve): 0.9820295827166652
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9379      0.9364      0.9586      0.9152      20922   9574   10048  413    887    
+1                   0.9379      0.9392      0.9189      0.9605      20922   10048  9574   887    413    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 5
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9860783650511098
+AUPRC (Area under Precision/Recall Curve): 0.9853545808495521
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9453      0.9454      0.9438      0.9470      20922   9907   9871   590    554    
+1                   0.9453      0.9452      0.9469      0.9436      20922   9871   9907   554    590    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 6
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9867515353021041
+AUPRC (Area under Precision/Recall Curve): 0.9862042943567334
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9422      0.9411      0.9598      0.9230      20922   9656   10057  404    805    
+1                   0.9422      0.9433      0.9259      0.9614      20922   10057  9656   805    404    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 7
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9870700951648816
+AUPRC (Area under Precision/Recall Curve): 0.9867312652997756
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9455      0.9452      0.9502      0.9402      20922   9835   9946   515    626    
+1                   0.9455      0.9458      0.9408      0.9508      20922   9946   9835   626    515    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 8
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9874901009395668
+AUPRC (Area under Precision/Recall Curve): 0.9870982816586531
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9467      0.9462      0.9536      0.9390      20922   9823   9983   478    638    
+1                   0.9467      0.9471      0.9399      0.9543      20922   9983   9823   638    478    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 9
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9872645339573606
+AUPRC (Area under Precision/Recall Curve): 0.987070952855166
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9431      0.9442      0.9263      0.9627      20922   10071  9660   801    390    
+1                   0.9431      0.9419      0.9612      0.9234      20922   9660   10071  390    801    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 10
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9873219143062034
+AUPRC (Area under Precision/Recall Curve): 0.986971401205673
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9449      0.9457      0.9333      0.9584      20922   10026  9744   717    435    
+1                   0.9449      0.9442      0.9573      0.9315      20922   9744   10026  435    717    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 11
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9876679997748052
+AUPRC (Area under Precision/Recall Curve): 0.9870303989634064
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9478      0.9480      0.9446      0.9514      20922   9953   9877   584    508    
+1                   0.9478      0.9476      0.9511      0.9442      20922   9877   9953   508    584    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 12
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9867840815267572
+AUPRC (Area under Precision/Recall Curve): 0.9865814071205856
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9477      0.9474      0.9525      0.9425      20922   9859   9969   492    602    
+1                   0.9477      0.9480      0.9431      0.9530      20922   9969   9859   602    492    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 13
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9865072733938293
+AUPRC (Area under Precision/Recall Curve): 0.9858523092282083
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9446      0.9447      0.9436      0.9457      20922   9893   9870   591    568    
+1                   0.9446      0.9445      0.9456      0.9435      20922   9870   9893   568    591    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 14
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9864101011491055
+AUPRC (Area under Precision/Recall Curve): 0.9856455086734288
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9408      0.9391      0.9671      0.9126      20922   9547   10136  325    914    
+1                   0.9408      0.9424      0.9173      0.9689      20922   10136  9547   914    325    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 15
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9864704393492211
+AUPRC (Area under Precision/Recall Curve): 0.9856418219286074
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9421      0.9405      0.9674      0.9150      20922   9572   10138  323    889    
+1                   0.9421      0.9436      0.9194      0.9691      20922   10138  9572   889    323    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 16
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9868722958310479
+AUPRC (Area under Precision/Recall Curve): 0.9865672175555347
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9478      0.9479      0.9465      0.9492      20922   9930   9900   561    531    
+1                   0.9478      0.9477      0.9491      0.9464      20922   9900   9930   531    561    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 17
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9870941587551529
+AUPRC (Area under Precision/Recall Curve): 0.9861271780161502
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9499      0.9497      0.9538      0.9456      20922   9892   9982   479    569    
+1                   0.9499      0.9501      0.9461      0.9542      20922   9982   9892   569    479    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 18
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9867171383225476
+AUPRC (Area under Precision/Recall Curve): 0.9857186088601757
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9496      0.9491      0.9587      0.9397      20922   9830   10038  423    631    
+1                   0.9496      0.9501      0.9409      0.9596      20922   10038  9830   631    423    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 19
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.986693729019446
+AUPRC (Area under Precision/Recall Curve): 0.9862063138458683
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9474      0.9474      0.9476      0.9471      20922   9908   9913   548    553    
+1                   0.9474      0.9474      0.9472      0.9476      20922   9913   9908   553    548    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 20
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9869213273230457
+AUPRC (Area under Precision/Recall Curve): 0.9863580748664653
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9456      0.9466      0.9293      0.9646      20922   10091  9693   768    370    
+1                   0.9456      0.9446      0.9632      0.9266      20922   9693   10091  370    768    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 21
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9861849237198987
+AUPRC (Area under Precision/Recall Curve): 0.9851539048505298
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9382      0.9402      0.9110      0.9714      20922   10162  9468   993    299    
+1                   0.9382      0.9361      0.9694      0.9051      20922   9468   10162  299    993    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 22
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9834231623373473
+AUPRC (Area under Precision/Recall Curve): 0.9818997403146758
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9406      0.9399      0.9517      0.9284      20922   9712   9968   493    749    
+1                   0.9406      0.9414      0.9301      0.9529      20922   9968   9712   749    493    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 23
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9847482892368475
+AUPRC (Area under Precision/Recall Curve): 0.9835184531492352
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9416      0.9403      0.9620      0.9196      20922   9620   10081  380    841    
+1                   0.9416      0.9429      0.9230      0.9637      20922   10081  9620   841    380    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 24
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9844734007204043
+AUPRC (Area under Precision/Recall Curve): 0.9824725134958882
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9410      0.9397      0.9609      0.9194      20922   9618   10070  391    843    
+1                   0.9410      0.9423      0.9228      0.9626      20922   10070  9618   843    391    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 25
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9842085707742788
+AUPRC (Area under Precision/Recall Curve): 0.9822899150501393
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9428      0.9436      0.9314      0.9561      20922   10002  9724   737    459    
+1                   0.9428      0.9421      0.9549      0.9295      20922   9724   10002  459    737    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 26
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9845863157552884
+AUPRC (Area under Precision/Recall Curve): 0.9831519093042245
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9419      0.9430      0.9252      0.9615      20922   10058  9648   813    403    
+1                   0.9419      0.9407      0.9599      0.9223      20922   9648   10058  403    813    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 27
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9860222305032338
+AUPRC (Area under Precision/Recall Curve): 0.9842589005936684
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9456      0.9462      0.9354      0.9574      20922   10015  9769   692    446    
+1                   0.9456      0.9450      0.9563      0.9338      20922   9769   10015  446    692    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 28
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9846643520310949
+AUPRC (Area under Precision/Recall Curve): 0.9833970182320043
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9413      0.9395      0.9682      0.9124      20922   9545   10148  313    916    
+1                   0.9413      0.9429      0.9172      0.9701      20922   10148  9545   916    313    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 29
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.985737142113569
+AUPRC (Area under Precision/Recall Curve): 0.9843133915955755
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9475      0.9481      0.9376      0.9589      20922   10031  9793   668    430    
+1                   0.9475      0.9469      0.9579      0.9361      20922   9793   10031  430    668    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 30
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.985581866306062
+AUPRC (Area under Precision/Recall Curve): 0.9844237743716971
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9478      0.9476      0.9505      0.9447      20922   9883   9946   515    578    
+1                   0.9478      0.9479      0.9451      0.9508      20922   9946   9883   578    515    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 31
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9849474389625511
+AUPRC (Area under Precision/Recall Curve): 0.9834164118522812
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9466      0.9458      0.9596      0.9324      20922   9754   10050  411    707    
+1                   0.9466      0.9473      0.9343      0.9607      20922   10050  9754   707    411    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 32
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9842142227538957
+AUPRC (Area under Precision/Recall Curve): 0.9818024107589736
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9432      0.9421      0.9618      0.9231      20922   9657   10077  384    804    
+1                   0.9432      0.9443      0.9261      0.9633      20922   10077  9657   804    384    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 33
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9850665921809044
+AUPRC (Area under Precision/Recall Curve): 0.9832015102244911
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9443      0.9431      0.9643      0.9228      20922   9653   10104  357    808    
+1                   0.9443      0.9455      0.9260      0.9659      20922   10104  9653   808    357    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 34
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.986070028265214
+AUPRC (Area under Precision/Recall Curve): 0.9849256628037706
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9465      0.9459      0.9565      0.9356      20922   9787   10016  445    674    
+1                   0.9465      0.9471      0.9370      0.9575      20922   10016  9787   674    445    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 35
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9867276393664361
+AUPRC (Area under Precision/Recall Curve): 0.985040871269866
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9510      0.9507      0.9574      0.9440      20922   9875   10022  439    586    
+1                   0.9510      0.9514      0.9448      0.9580      20922   10022  9875   586    439    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 36
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9850656852977784
+AUPRC (Area under Precision/Recall Curve): 0.9829574327755941
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9450      0.9440      0.9615      0.9272      20922   9699   10073  388    762    
+1                   0.9450      0.9460      0.9297      0.9629      20922   10073  9699   762    388    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 37
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9859918328914631
+AUPRC (Area under Precision/Recall Curve): 0.9842944927638246
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9472      0.9463      0.9639      0.9293      20922   9721   10097  364    740    
+1                   0.9472      0.9482      0.9317      0.9652      20922   10097  9721   740    364    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 38
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9859315414427505
+AUPRC (Area under Precision/Recall Curve): 0.9845911845138016
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9452      0.9443      0.9593      0.9298      20922   9727   10048  413    734    
+1                   0.9452      0.9460      0.9319      0.9605      20922   10048  9727   734    413    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 39
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.986705394707698
+AUPRC (Area under Precision/Recall Curve): 0.9853765386988316
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9528      0.9524      0.9599      0.9450      20922   9886   10048  413    575    
+1                   0.9528      0.9531      0.9459      0.9605      20922   10048  9886   575    413    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 40
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.986062444324574
+AUPRC (Area under Precision/Recall Curve): 0.9840810522462027
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9479      0.9473      0.9585      0.9364      20922   9796   10037  424    665    
+1                   0.9479      0.9485      0.9379      0.9595      20922   10037  9796   665    424    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 41
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.986275463224392
+AUPRC (Area under Precision/Recall Curve): 0.9844940609677656
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9490      0.9484      0.9612      0.9359      20922   9790   10066  395    671    
+1                   0.9490      0.9497      0.9375      0.9622      20922   10066  9790   671    395    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 42
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9872412096772438
+AUPRC (Area under Precision/Recall Curve): 0.9862977950399637
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9495      0.9490      0.9592      0.9390      20922   9823   10043  418    638    
+1                   0.9495      0.9501      0.9403      0.9600      20922   10043  9823   638    418    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 43
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9860971996521871
+AUPRC (Area under Precision/Recall Curve): 0.9845511224311649
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9483      0.9477      0.9578      0.9379      20922   9811   10029  432    650    
+1                   0.9483      0.9488      0.9391      0.9587      20922   10029  9811   650    432    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 44
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9865577276354185
+AUPRC (Area under Precision/Recall Curve): 0.9850563593110774
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9470      0.9464      0.9572      0.9360      20922   9791   10023  438    670    
+1                   0.9470      0.9476      0.9373      0.9581      20922   10023  9791   670    438    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 45
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9861855880554992
+AUPRC (Area under Precision/Recall Curve): 0.9838757857944459
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9493      0.9494      0.9477      0.9511      20922   9949   9912   549    512    
+1                   0.9493      0.9492      0.9509      0.9475      20922   9912   9949   512    549    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 46
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9852630927369052
+AUPRC (Area under Precision/Recall Curve): 0.9827300657695135
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9467      0.9456      0.9652      0.9267      20922   9694   10112  349    767    
+1                   0.9467      0.9477      0.9295      0.9666      20922   10112  9694   767    349    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 47
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9862953738472761
+AUPRC (Area under Precision/Recall Curve): 0.983996900781366
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9502      0.9496      0.9622      0.9373      20922   9805   10076  385    656    
+1                   0.9502      0.9509      0.9389      0.9632      20922   10076  9805   656    385    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 48
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9862599736854708
+AUPRC (Area under Precision/Recall Curve): 0.9845673489961254
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9464      0.9453      0.9651      0.9263      20922   9690   10111  350    771    
+1                   0.9464      0.9475      0.9291      0.9665      20922   10111  9690   771    350    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 49
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9863934601933964
+AUPRC (Area under Precision/Recall Curve): 0.9844371628727282
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9508      0.9503      0.9603      0.9405      20922   9839   10054  407    622    
+1                   0.9508      0.9513      0.9417      0.9611      20922   10054  9839   622    407    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 50
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9860773601825945
+AUPRC (Area under Precision/Recall Curve): 0.9843349668669694
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9484      0.9475      0.9640      0.9317      20922   9746   10097  364    715    
+1                   0.9484      0.9493      0.9339      0.9652      20922   10097  9746   715    364    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 51
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9860795058678764
+AUPRC (Area under Precision/Recall Curve): 0.9847518272024174
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9409      0.9393      0.9664      0.9136      20922   9557   10129  332    904    
+1                   0.9409      0.9425      0.9181      0.9683      20922   10129  9557   904    332    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 52
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9866444930246128
+AUPRC (Area under Precision/Recall Curve): 0.9853882103618785
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9506      0.9507      0.9488      0.9527      20922   9966   9923   538    495    
+1                   0.9506      0.9505      0.9525      0.9486      20922   9923   9966   495    538    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 53
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9867946788065861
+AUPRC (Area under Precision/Recall Curve): 0.9851107080217201
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9534      0.9537      0.9465      0.9610      20922   10053  9893   568    408    
+1                   0.9534      0.9530      0.9604      0.9457      20922   9893   10053  408    568    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 54
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9852278369664242
+AUPRC (Area under Precision/Recall Curve): 0.9833742263037887
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9477      0.9479      0.9447      0.9511      20922   9949   9879   582    512    
+1                   0.9477      0.9475      0.9507      0.9444      20922   9879   9949   512    582    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 55
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9863210149523156
+AUPRC (Area under Precision/Recall Curve): 0.9846574187395021
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9492      0.9483      0.9653      0.9318      20922   9748   10111  350    713    
+1                   0.9492      0.9501      0.9341      0.9665      20922   10111  9748   713    350    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 56
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9865307614574194
+AUPRC (Area under Precision/Recall Curve): 0.9846220604403264
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9504      0.9498      0.9625      0.9374      20922   9806   10079  382    655    
+1                   0.9504      0.9511      0.9390      0.9635      20922   10079  9806   655    382    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 57
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9861566572129057
+AUPRC (Area under Precision/Recall Curve): 0.984193390524281
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9493      0.9488      0.9584      0.9395      20922   9828   10034  427    633    
+1                   0.9493      0.9498      0.9407      0.9592      20922   10034  9828   633    427    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 58
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9862109737498794
+AUPRC (Area under Precision/Recall Curve): 0.9839147763160574
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9472      0.9461      0.9663      0.9267      20922   9694   10123  338    767    
+1                   0.9472      0.9482      0.9296      0.9677      20922   10123  9694   767    338    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 59
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9860988143962872
+AUPRC (Area under Precision/Recall Curve): 0.984470168565845
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9503      0.9498      0.9590      0.9408      20922   9842   10040  421    619    
+1                   0.9503      0.9508      0.9419      0.9598      20922   10040  9842   619    421    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 60
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9867437414508815
+AUPRC (Area under Precision/Recall Curve): 0.9850395939161478
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9509      0.9503      0.9627      0.9382      20922   9814   10081  380    647    
+1                   0.9509      0.9515      0.9397      0.9637      20922   10081  9814   647    380    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 61
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9861737675779882
+AUPRC (Area under Precision/Recall Curve): 0.983942470541213
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9513      0.9512      0.9537      0.9487      20922   9924   9979   482    537    
+1                   0.9513      0.9514      0.9489      0.9539      20922   9979   9924   537    482    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 62
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9873928812857835
+AUPRC (Area under Precision/Recall Curve): 0.9861605241334179
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9492      0.9495      0.9455      0.9534      20922   9974   9886   575    487    
+1                   0.9492      0.9490      0.9531      0.9450      20922   9886   9974   487    575    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 63
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9862538057743522
+AUPRC (Area under Precision/Recall Curve): 0.9842795974128694
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9491      0.9487      0.9559      0.9417      20922   9851   10006  455    610    
+1                   0.9491      0.9495      0.9425      0.9565      20922   10006  9851   610    455    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 64
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9867855195790044
+AUPRC (Area under Precision/Recall Curve): 0.9847498044722236
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9540      0.9537      0.9613      0.9461      20922   9897   10063  398    564    
+1                   0.9540      0.9544      0.9469      0.9620      20922   10063  9897   564    398    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 65
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9867802472671285
+AUPRC (Area under Precision/Recall Curve): 0.9848319866571054
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9468      0.9457      0.9654      0.9267      20922   9694   10114  347    767    
+1                   0.9468      0.9478      0.9295      0.9668      20922   10114  9694   767    347    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 66
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9863705901229403
+AUPRC (Area under Precision/Recall Curve): 0.9847682642335283
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9514      0.9509      0.9606      0.9414      20922   9848   10057  404    613    
+1                   0.9514      0.9519      0.9425      0.9614      20922   10057  9848   613    404    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 67
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9865228253296133
+AUPRC (Area under Precision/Recall Curve): 0.9848482382618375
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9490      0.9484      0.9605      0.9366      20922   9798   10058  403    663    
+1                   0.9490      0.9497      0.9382      0.9615      20922   10058  9798   663    403    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 68
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9871423528437243
+AUPRC (Area under Precision/Recall Curve): 0.985304261695777
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9521      0.9516      0.9606      0.9428      20922   9863   10056  405    598    
+1                   0.9521      0.9525      0.9439      0.9613      20922   10056  9863   598    405    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 69
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9860081765020484
+AUPRC (Area under Precision/Recall Curve): 0.9840190047172748
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9502      0.9497      0.9589      0.9407      20922   9841   10039  422    620    
+1                   0.9502      0.9507      0.9418      0.9597      20922   10039  9841   620    422    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 70
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9862574109135005
+AUPRC (Area under Precision/Recall Curve): 0.9846362834736603
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9495      0.9489      0.9594      0.9386      20922   9819   10046  415    642    
+1                   0.9495      0.9500      0.9399      0.9603      20922   10046  9819   642    415    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 71
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9849249466259818
+AUPRC (Area under Precision/Recall Curve): 0.9830498930307097
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9457      0.9448      0.9604      0.9296      20922   9725   10060  401    736    
+1                   0.9457      0.9465      0.9318      0.9617      20922   10060  9725   736    401    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 72
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9863891212614475
+AUPRC (Area under Precision/Recall Curve): 0.9848418214887517
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9505      0.9499      0.9631      0.9370      20922   9802   10085  376    659    
+1                   0.9505      0.9512      0.9387      0.9641      20922   10085  9802   659    376    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 73
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9852856936238035
+AUPRC (Area under Precision/Recall Curve): 0.9830000487270871
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9450      0.9437      0.9673      0.9212      20922   9637   10135  326    824    
+1                   0.9450      0.9463      0.9248      0.9688      20922   10135  9637   824    326    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 74
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9864488272735034
+AUPRC (Area under Precision/Recall Curve): 0.9849941349693114
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9496      0.9504      0.9354      0.9660      20922   10105  9763   698    356    
+1                   0.9496      0.9488      0.9648      0.9333      20922   9763   10105  356    698    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 75
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9870534295421205
+AUPRC (Area under Precision/Recall Curve): 0.9856723005213681
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9534      0.9529      0.9624      0.9437      20922   9872   10075  386    589    
+1                   0.9534      0.9538      0.9448      0.9631      20922   10075  9872   589    386    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 76
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9868146143648169
+AUPRC (Area under Precision/Recall Curve): 0.9856932513396313
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9528      0.9524      0.9601      0.9448      20922   9884   10050  411    577    
+1                   0.9528      0.9531      0.9457      0.9607      20922   10050  9884   577    411    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 77
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9873605049141552
+AUPRC (Area under Precision/Recall Curve): 0.9856960232277374
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9510      0.9510      0.9500      0.9520      20922   9959   9937   524    502    
+1                   0.9510      0.9509      0.9519      0.9499      20922   9937   9959   502    524    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 78
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9877535423885363
+AUPRC (Area under Precision/Recall Curve): 0.9863841312057893
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9529      0.9526      0.9585      0.9468      20922   9904   10032  429    557    
+1                   0.9529      0.9532      0.9474      0.9590      20922   10032  9904   557    429    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 79
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9846524292830405
+AUPRC (Area under Precision/Recall Curve): 0.9828391860485661
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9469      0.9465      0.9549      0.9382      20922   9814   9998   463    647    
+1                   0.9469      0.9474      0.9392      0.9557      20922   9998   9814   647    463    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 80
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.986796011899108
+AUPRC (Area under Precision/Recall Curve): 0.9851001943162105
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9495      0.9487      0.9634      0.9344      20922   9775   10090  371    686    
+1                   0.9495      0.9502      0.9363      0.9645      20922   10090  9775   686    371    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 81
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9863206604781267
+AUPRC (Area under Precision/Recall Curve): 0.9847481222351135
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9479      0.9469      0.9663      0.9282      20922   9710   10122  339    751    
+1                   0.9479      0.9489      0.9309      0.9676      20922   10122  9710   751    339    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 82
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9871635946529915
+AUPRC (Area under Precision/Recall Curve): 0.9857360095500175
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9479      0.9487      0.9336      0.9642      20922   10087  9744   717    374    
+1                   0.9479      0.9470      0.9630      0.9315      20922   9744   10087  374    717    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 83
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9864764394186557
+AUPRC (Area under Precision/Recall Curve): 0.9847940965141262
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9501      0.9495      0.9623      0.9370      20922   9802   10077  384    659    
+1                   0.9501      0.9508      0.9386      0.9633      20922   10077  9802   659    384    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 84
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9862328010920745
+AUPRC (Area under Precision/Recall Curve): 0.9845160955205126
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9476      0.9468      0.9619      0.9321      20922   9751   10075  386    710    
+1                   0.9476      0.9484      0.9342      0.9631      20922   10075  9751   710    386    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 85
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9874553950518359
+AUPRC (Area under Precision/Recall Curve): 0.9862351937355427
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9473      0.9461      0.9673      0.9258      20922   9685   10134  327    776    
+1                   0.9473      0.9484      0.9289      0.9687      20922   10134  9685   776    327    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 86
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9875138082510693
+AUPRC (Area under Precision/Recall Curve): 0.9863241686075525
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9496      0.9492      0.9555      0.9431      20922   9866   10001  460    595    
+1                   0.9496      0.9499      0.9438      0.9560      20922   10001  9866   595    460    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 87
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9873180383173168
+AUPRC (Area under Precision/Recall Curve): 0.9859710316772718
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9509      0.9507      0.9551      0.9463      20922   9899   9996   465    562    
+1                   0.9509      0.9511      0.9468      0.9555      20922   9996   9899   562    465    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 88
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9866384321668709
+AUPRC (Area under Precision/Recall Curve): 0.9853752262907245
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9494      0.9491      0.9550      0.9432      20922   9867   9996   465    594    
+1                   0.9494      0.9497      0.9439      0.9555      20922   9996   9867   594    465    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 89
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9874070888330272
+AUPRC (Area under Precision/Recall Curve): 0.9862619779763466
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9501      0.9495      0.9592      0.9401      20922   9834   10043  418    627    
+1                   0.9501      0.9505      0.9412      0.9600      20922   10043  9834   627    418    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 90
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.987472499568415
+AUPRC (Area under Precision/Recall Curve): 0.9865947930377441
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9512      0.9507      0.9622      0.9394      20922   9827   10075  386    634    
+1                   0.9512      0.9518      0.9408      0.9631      20922   10075  9827   634    386    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 91
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9869669491955995
+AUPRC (Area under Precision/Recall Curve): 0.9858378568682895
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9501      0.9505      0.9422      0.9591      20922   10033  9845   616    428    
+1                   0.9501      0.9496      0.9583      0.9411      20922   9845   10033  428    616    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 92
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9882752369519702
+AUPRC (Area under Precision/Recall Curve): 0.9870535661537143
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9541      0.9540      0.9564      0.9516      20922   9955   10007  454    506    
+1                   0.9541      0.9542      0.9519      0.9566      20922   10007  9955   506    454    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 93
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.987184787838133
+AUPRC (Area under Precision/Recall Curve): 0.985280042975236
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9527      0.9523      0.9605      0.9443      20922   9878   10055  406    583    
+1                   0.9527      0.9531      0.9452      0.9612      20922   10055  9878   583    406    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 94
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.986135228047374
+AUPRC (Area under Precision/Recall Curve): 0.985208786503761
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9383      0.9365      0.9639      0.9107      20922   9527   10104  357    934    
+1                   0.9383      0.9400      0.9154      0.9659      20922   10104  9527   934    357    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 95
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9871090420974975
+AUPRC (Area under Precision/Recall Curve): 0.9851118118166267
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9431      0.9415      0.9685      0.9161      20922   9583   10149  312    878    
+1                   0.9431      0.9446      0.9204      0.9702      20922   10149  9583   878    312    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 96
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9865954404615125
+AUPRC (Area under Precision/Recall Curve): 0.9847965838278425
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9430      0.9413      0.9696      0.9146      20922   9568   10161  300    893    
+1                   0.9430      0.9446      0.9192      0.9713      20922   10161  9568   893    300    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 97
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9870447116498919
+AUPRC (Area under Precision/Recall Curve): 0.9854572063454349
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9498      0.9491      0.9615      0.9371      20922   9803   10068  393    658    
+1                   0.9498      0.9504      0.9387      0.9624      20922   10068  9803   658    393    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 98
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9868530059692683
+AUPRC (Area under Precision/Recall Curve): 0.9858266767916284
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9442      0.9427      0.9680      0.9187      20922   9611   10143  318    850    
+1                   0.9442      0.9456      0.9227      0.9696      20922   10143  9611   850    318    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 99
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9875192856894848
+AUPRC (Area under Precision/Recall Curve): 0.9863240220229571
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9502      0.9505      0.9444      0.9567      20922   10008  9872   589    453    
+1                   0.9502      0.9499      0.9561      0.9437      20922   9872   10008  453    589    
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 100
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - ROC:
+AUC (Area under ROC Curve):                0.9885380075669277
+AUPRC (Area under Precision/Recall Curve): 0.9870544027447303
+o.d.o.l.EvaluativeListener - EvaluationBinary:
+Label               Accuracy    F1          Precision   Recall      Total   TP     TN     FP     FN     
+0                   0.9548      0.9545      0.9603      0.9488      20922   9925   10051  410    536    
+1                   0.9548      0.9551      0.9494      0.9608      20922   10051  9925   536    410
